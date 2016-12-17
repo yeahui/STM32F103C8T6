@@ -1,0 +1,1 @@
+1/ I2C signal need add pullup resistor`

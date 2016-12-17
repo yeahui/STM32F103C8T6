@@ -1,0 +1,66 @@
+Dependencies for Project 'stm32_demo', Target 'stm32_demo': (DO NOT MODIFY !)
+F (..\CMSIS\startup\startup_stm32f10x_md.s)(0x49D96948)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I D:\sthuji\STM\001_Systick\User\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 520" --pd "STM32F10X_MD SETA 1"--list ..\startup_stm32f10x_md.lst --xref -o ..\output\startup_stm32f10x_md.o --depend ..\output\startup_stm32f10x_md.d)
+F (.\main.c)(0x5853AF4E)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FWlib\inc -I ..\User -I ..\CMSIS-I D:\sthuji\STM\001_Systick\User\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -Dstartup_stm32f10x_md-o ..\output\main.o --omf_browse ..\output\main.crf --depend ..\output\main.d)
+I (..\CMSIS\stm32f10x.h)(0x4DECC1EC)
+I (..\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\User\stm32f10x_conf.h)(0x4E648C2A)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4E64CA32)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\FWlib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x49D9694A)
+I (..\FWlib\inc\misc.h)(0x49D9694A)
+F (..\CMSIS\core_cm3.c)(0x49D96948)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FWlib\inc -I ..\User -I ..\CMSIS-I D:\sthuji\STM\001_Systick\User\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -Dstartup_stm32f10x_md-o ..\output\core_cm3.o --omf_browse ..\output\core_cm3.crf --depend ..\output\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+F (..\CMSIS\system_stm32f10x.c)(0x4DE9AAF0)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FWlib\inc -I ..\User -I ..\CMSIS-I D:\sthuji\STM\001_Systick\User\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -Dstartup_stm32f10x_md-o ..\output\system_stm32f10x.o --omf_browse ..\output\system_stm32f10x.crf --depend ..\output\system_stm32f10x.d)
+I (..\CMSIS\stm32f10x.h)(0x4DECC1EC)
+I (..\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\User\stm32f10x_conf.h)(0x4E648C2A)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4E64CA32)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
+F (..\FWlib\src\stm32f10x_gpio.c)(0x49D9694A)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FWlib\inc -I ..\User -I ..\CMSIS-I D:\sthuji\STM\001_Systick\User\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -Dstartup_stm32f10x_md-o ..\output\stm32f10x_gpio.o --omf_browse ..\output\stm32f10x_gpio.crf --depend ..\output\stm32f10x_gpio.d)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4E64CA32)
+I (..\CMSIS\stm32f10x.h)(0x4DECC1EC)
+I (..\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\User\stm32f10x_conf.h)(0x4E648C2A)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
+F (..\FWlib\src\stm32f10x_rcc.c)(0x582F2260)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FWlib\inc -I ..\User -I ..\CMSIS-I D:\sthuji\STM\001_Systick\User\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -Dstartup_stm32f10x_md-o ..\output\stm32f10x_rcc.o --omf_browse ..\output\stm32f10x_rcc.crf --depend ..\output\stm32f10x_rcc.d)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
+I (..\CMSIS\stm32f10x.h)(0x4DECC1EC)
+I (..\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\User\stm32f10x_conf.h)(0x4E648C2A)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4E64CA32)
+F (..\FWlib\src\stm32f10x_tim.c)(0x49D9694A)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FWlib\inc -I ..\User -I ..\CMSIS-I D:\sthuji\STM\001_Systick\User\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -Dstartup_stm32f10x_md-o ..\output\stm32f10x_tim.o --omf_browse ..\output\stm32f10x_tim.crf --depend ..\output\stm32f10x_tim.d)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x49D9694A)
+I (..\CMSIS\stm32f10x.h)(0x4DECC1EC)
+I (..\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\User\stm32f10x_conf.h)(0x4E648C2A)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4E64CA32)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
+F (..\FWlib\src\misc.c)(0x49D9694A)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FWlib\inc -I ..\User -I ..\CMSIS-I D:\sthuji\STM\001_Systick\User\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -Dstartup_stm32f10x_md-o ..\output\misc.o --omf_browse ..\output\misc.crf --depend ..\output\misc.d)
+I (..\FWlib\inc\misc.h)(0x49D9694A)
+I (..\CMSIS\stm32f10x.h)(0x4DECC1EC)
+I (..\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\User\stm32f10x_conf.h)(0x4E648C2A)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4E64CA32)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
+F (..\FWlib\src\stm32f10x_flash.c)(0x49D9694A)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FWlib\inc -I ..\User -I ..\CMSIS-I D:\sthuji\STM\001_Systick\User\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -Dstartup_stm32f10x_md-o ..\output\stm32f10x_flash.o --omf_browse ..\output\stm32f10x_flash.crf --depend ..\output\stm32f10x_flash.d)
+I (..\FWlib\inc\stm32f10x_flash.h)(0x49D9694A)
+I (..\CMSIS\stm32f10x.h)(0x4DECC1EC)
+I (..\CMSIS\core_cm3.h)(0x49D96948)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\CMSIS\system_stm32f10x.h)(0x49D96948)
+I (..\User\stm32f10x_conf.h)(0x4E648C2A)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4E64CA32)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x49D9694A)
